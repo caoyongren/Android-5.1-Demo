@@ -8,8 +8,9 @@ public class DelegateActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TouchDelegateLayout layout = new TouchDelegateLayout(this);
+        //setContentView(R.layout.main);
 
+        TouchDelegateLayout layout = new TouchDelegateLayout(this);
         setContentView(layout);
     }
 }

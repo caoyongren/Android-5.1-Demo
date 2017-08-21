@@ -14,8 +14,7 @@ public class PanGestureScrollView extends FrameLayout {
 
     private GestureDetector mDetector;
     private Scroller mScroller;
-
-    /* Positions of the last motion event */
+    /* Positions of the last motion event*/
     private float mInitialX, mInitialY;
     /* Drag threshold */
     private int mTouchSlop;
